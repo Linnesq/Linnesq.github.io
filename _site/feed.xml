@@ -7,6 +7,21 @@
     <atom:link href="http://linnesq.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Goodbye Wordpress, Hello Jekyll!</title>
+        <description>&lt;p&gt;I currently have a blog at &lt;a href=&quot;http://richardgilmour.co.uk&quot;&gt;richardgilmour.co.uk&lt;/a&gt; which hasn’t really been updated in a while.
+The site runs Wordpress on a very, very cheap hosting package. It’s a very basic site, but already has become quite slow (due to hosting) and hard to maintain.
+I have some plugins that I &lt;em&gt;need&lt;/em&gt; to prevent hacks and spam, which stopped playing nice with Wordpress around 12 months ago.
+Wordpress has failed to update numerous times to the point where I am ready to give up and try something faster and easier to maintain - this!&lt;/p&gt;
+
+&lt;p&gt;I am learning a lot at the moment, and I want to get back into blogging so, hopefully, this will be the start of a new era for me!
+I became a dad not long ago, so don’t expect anything earth-shatteringly amazing, but I do plan to a little, often.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Jun 2014 00:00:00 +0100</pubDate>
+        <link>http://linnesq.github.io/2014/06/22/hello-jekyll/</link>
+        <guid isPermaLink="true">http://linnesq.github.io/2014/06/22/hello-jekyll/</guid>
+      </item>
+    
+      <item>
         <title>Welcome to Jekyll!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
