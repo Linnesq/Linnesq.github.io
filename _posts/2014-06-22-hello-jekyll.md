@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Goodbye Wordpress, Hello Jekyll!"
+tag: pa
 ---
 I currently have a blog at [richardgilmour.co.uk](http://richardgilmour.co.uk) which hasn't really been updated in a while.
 The site runs Wordpress on a very, very cheap hosting package. It's a very basic site, but already has become quite slow (due to hosting) and hard to maintain.

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Simple Android Action Bar"
+tag: android
 ---
+
 This post is about getting started with a simple [Action Bar][guide].
 
 ![action bar example image]({{site.url}}/assets/images/simple-action-bar.png)
