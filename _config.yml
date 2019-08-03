@@ -1,9 +1,9 @@
 # Site settings
-title: linnesq
-email: your-email@domain.com
-description: "...because my wordpress is becoming hard to use..."
+title: Linnesq
+description: "TBC"
 baseurl: ""
-url: "http://linnesq.github.io"
+url: "https://linnesq.github.io"
+username: Linnesq
 
 # Build settings
 markdown: kramdown
