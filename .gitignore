@@ -1,5 +1,4 @@
 .idea/
-*.lock
 .DS_Store
 _drafts/
 _publish/

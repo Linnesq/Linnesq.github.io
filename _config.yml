@@ -8,3 +8,5 @@ username: Linnesq
 # Build settings
 markdown: kramdown
 permalink: pretty
+encoding: utf-8
+future: false
