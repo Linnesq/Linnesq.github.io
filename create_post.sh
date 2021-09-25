@@ -10,7 +10,7 @@ if [ -z "$1" ]
     post_title=$1
 fi
 
-post_name=`echo $post_title | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]'`
+post_name=`echo $post_title | tr -dc '[:alnum:]' | tr '[:upper:]' '[:lower:]'`
 file_name="${date_prefix}-${post_name}.md"
 
 echo "---
