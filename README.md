@@ -18,6 +18,14 @@ bundle install
 bundle exec jekyll serve
 ```
 
+or
+
+```
+docker-compose up
+```
+
+and it should be available on http://localhost:4000/
+
 # Make a post
 
 Easiest way is to run the create post script:
