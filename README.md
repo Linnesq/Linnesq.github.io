@@ -3,28 +3,11 @@ Linnesq.github.io
 
 # Setup & Installation
 
-Install project ruby version with [rbenv](https://github.com/rbenv/rbenv).
+Install [rbenv](https://github.com/rbenv/rbenv).
 
-```
-rbenv install `cat .ruby-version`
-```
+Run `make pre-install` from the project root to get ruby and the project dependencies installed.
 
-Get this blog running locally.
-
-```
-rbenv local
-gem install bundler
-bundle install
-bundle exec jekyll serve
-```
-
-or
-
-```
-docker-compose up
-```
-
-and it should be available on http://localhost:4000/
+To get this blog running locally run `make serve` or `docker-compose up` and it should be available on http://localhost:4000/
 
 # Make a post
 
