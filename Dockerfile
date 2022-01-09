@@ -1,4 +1,4 @@
-FROM ruby:2.7.1
+FROM ruby:2.7.4
 
 WORKDIR /app
 
@@ -10,4 +10,4 @@ COPY . /app/
 
 EXPOSE 4000
 
-CMD [ "bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0" ]
+CMD ["make", "serve-docker"]
