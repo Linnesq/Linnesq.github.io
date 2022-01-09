@@ -1,8 +1,7 @@
 pre-install-checks:
 	which rbenv || (echo "Please install https://github.com/rbenv/rbenv" && exit 1)
 
-pre-install:
-	echo "Install $(shell cat .ruby-version) ruby"
+pre-install: pre-install-checks
 	rbenv install $(shell cat .ruby-version) -s
 	gem update bundler
 	bundle install
