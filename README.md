@@ -1,7 +1,6 @@
-Linnesq.github.io
-=================
+# Linnesq.github.io
 
-# Setup & Installation
+## Setup & Installation
 
 Install [rbenv](https://github.com/rbenv/rbenv).
 
@@ -9,7 +8,7 @@ Run `make pre-install` from the project root to get ruby and the project depende
 
 To get this blog running locally run `make serve` or `docker-compose up` and it should be available on http://localhost:4000/
 
-# Make a post
+## Make a post
 
 Easiest way is to run the create post script:
 
