@@ -14,4 +14,4 @@ serve-docker:
 
 bash:
 	docker build -t linnesq .
-	docker run -it --rm --entrypoint bash -v $$(pwd):/app linnesq
+	docker run -it --rm -p 4000:4000 --entrypoint bash -v $$(pwd):/app linnesq
