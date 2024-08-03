@@ -8,6 +8,10 @@ Run `make pre-install` from the project root to get ruby and the project depende
 
 To get this blog running locally run `make serve` or `docker-compose up` and it should be available on http://localhost:4000/
 
+## Update dependencies
+
+Run `make bash` to get an environment up. Running `bundle outdated` will tell you if anything is outdated. If there is an update to `github-pages`, then manually update the Gemfile with the new version number (so this is pinned). Then run `bundle install` to install everything (which will update the lock file). Commit those changes. Exit the docker container and re-run `make bash` and check the app is working as expected.
+
 ## Make a post
 
 Easiest way is to run the create post script:
