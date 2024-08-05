@@ -1,12 +1,17 @@
 FROM ruby:3.3.4
 
-RUN apt-get update && apt-get install -y bash-completion && echo ". /etc/bash_completion" >> ~/.bashrc
+RUN \
+    --mount=type=cache,target=/var/cache/apt \ 
+    apt-get update -qq && apt-get install -y bash-completion \
+    && echo ". /etc/bash_completion" >> ~/.bashrc
+
+RUN gem install bundler -v 2.5.17
 
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock /app/
 
-RUN gem install bundler -v 2.5.17 && bundle install
+RUN bundle install --quiet
 
 COPY . /app/
 
