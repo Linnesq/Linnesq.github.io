@@ -261,6 +261,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
@@ -269,6 +270,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 231)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.22
