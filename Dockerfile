@@ -1,4 +1,4 @@
-FROM ruby:3.3.4
+FROM ruby:3.3.10
 
 RUN \
     --mount=type=cache,target=/var/cache/apt \ 
